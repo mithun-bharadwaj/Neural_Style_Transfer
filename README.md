@@ -48,6 +48,15 @@ Content image (Me at the Brooklyn bridge, NYC)              |  Style image (Pain
 3. Weights for the style layers.
 4. Learning rate.
 
+## Dependencies
+1. Jupyter notebook
+2. numpy
+3. matplotlib
+4. OpenCV (For the image processing part. Substitues can be used for this)
+5. scipy
+6. Tensorflow
+7. Keras
+
 ## How to run
 1. Download the weights of the pre-trained VGG19 model using the link given below.
 2. Place the 2 script files in the src folder of this repository in the same root folder as the .mat file
@@ -56,3 +65,6 @@ Content image (Me at the Brooklyn bridge, NYC)              |  Style image (Pain
 
 ## Pre-trained VGG19 model
 http://www.vlfeat.org/matconvnet/models/beta16/imagenet-vgg-verydeep-19.mat
+
+## References
+1. Paper for Neural Style Transfer: https://arxiv.org/abs/1508.06576
